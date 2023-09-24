@@ -4,17 +4,22 @@
   align-items: center;
   justify-content: center;
   margin-top: 150px;
+
+  padding-bottom: 10px;
 }
 
 .title {
   display: flex;
   font-size: 40px;
+  color: white;
 }
 
 .label {
   display: flex;
   flex-direction: column;
   max-width: 200px;
+  color: white;
+  width: 25%;
 }
 
 .button {
@@ -26,8 +31,9 @@
   margin-top: 20px;
   padding: 10px;
   color: white;
-  background-color: #3458eb;
-  border-color: #3458eb;
+  background-color: blue;
+  border-color: blue;
   border-radius: 5px;
   font-size: 23px;
+  width: 25%;
 }
